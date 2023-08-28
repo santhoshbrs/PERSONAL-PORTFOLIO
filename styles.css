@@ -172,7 +172,7 @@ table td {
 }
 
 div[role="progressbar"] {
-	color: #ffbf35;
+	color: white;
 	margin-left: 100px;
 	margin-bottom: 20px;
 	width: 150px;
@@ -186,7 +186,7 @@ div[role="progressbar"] {
 
 	--pgPercentage: var(--value);
 	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
-		conic-gradient(#de2007 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+		conic-gradient(#de2007 calc(var(--pgPercentage) * 1%), white 0);
 
 }
 
